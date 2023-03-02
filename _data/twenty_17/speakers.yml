@@ -1,26 +1,53 @@
-- title: Name
+- title: Chao Li
   name: Name-1
   subtitle: Position
-  img: TBD.jpg
-  thumbnail: TBD.jpg
+  img: Chao Li.jpg
+  thumbnail: Chao Li.jpg
   alt: Picture of TBD
   topic: Topic
   description: More Info
 
-- title: Name
-  name: Name-2
+- title: Nazar
+  name: Nazar
   subtitle: Position
-  img: TBD.jpg
-  thumbnail: TBD.jpg
+  img: Nazar.jpg
+  thumbnail: Nazar.jpg
   alt: Picture of TBD
   topic: Topic
   description: More Info
 
-- title: Name
-  name: Name-3
+- title: Wu
+  name: Wu
   subtitle: Position
-  img: TBD.jpg
-  thumbnail: TBD.jpg
+  img: Wu_01.png
+  thumbnail: Wu_01.png
+  alt: Picture of TBD
+  topic: Topic
+  description: More Info
+
+- title: Yang
+  name: Yang
+  subtitle: Position
+  img: Yang_01.png
+  thumbnail: Yang_01.png
+  alt: Picture of TBD
+  topic: Topic
+  description: More Info
+
+- title: Zhang
+  name: Zhang
+  subtitle: Position
+  img: Zhang.jpg
+  thumbnail: Zhang.jpg
+  alt: Picture of TBD
+  topic: Topic
+  description: More Info
+
+- title: Qin
+  name: Qin
+  subtitle: Position
+  img: Qin.jpg
+  thumbnail: Qin.jpg
   alt: Picture of TBD
   topic: Topic
   description: More Info

@@ -3,29 +3,92 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">About</h2>
+                    <h2 class="section-heading">Committee</h2>
                     <h3 class="section-subheading text-muted"></h3>
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-12">
-                    <ul class="timeline">
-                        {% for about_data in site.data.twenty_17.home_about_data %}
-                            <li class="{{ about_data.inverted }}">
-                                <div class="timeline-image">
-                                    <img class="img-circle img-responsive" src="../css/2016_style/img/{{ about_data.img }}" alt="">
-                                </div>
-                                <div class="timeline-panel">
-                                    <div class="timeline-heading">
-                                        <h4>{{ about_data.name }}</h4>
-                                    </div>
-                                    <div class="timeline-heading">
-                                        <p class="text-muted">{{ about_data.info }}</p>
-                                    </div>
-                                    <a href="{{ about_data.link }}" class="page-scroll btn btn-sm">Learn More</a>
-                                </div>
-                            </li>
-                        {% endfor %}
+                    <style>
+                        .about-li {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            padding: 10px 0 10px 0;
+                            margin-top: 20px;
+                            margin-bottom: 20px;
+
+                        }
+                        .com-img {
+                            width: 220px;
+                            height: 220px;
+                        }
+                        .com-span {
+                            width: 750px;
+                            margin-left: 20px;
+                            font-size: 15px;
+                            line-height: 20px;
+                            font-weight: bold;
+                        }
+                    </style>
+                    <ul>
+                        <li class="about-li">
+                            <img class="com-img" src="../css/2017_style/img/committee/Chao Li.jpg">
+                            <span class="com-span">
+                                Dr Chao Li, MD, PhD<br>
+                                Group Leader, Intelligent Neuroimaging & Computational Neuroscience<br>                                
+                                Clinical Fellow, Department of Clinical Neurosciences<br>
+                                Senior Research Fellow, Department of Applied Mathematics and Theoretical Physics<br>
+                                Email: <a href="mailto:cl647@cam.ac.uk">cl647@cam.ac.uk</a><br>
+                                Personal Page: <a href="https://www.neurosurg.cam.ac.uk/research-groups/brain-tumour-imaging-lab/2988-2/dr-chao-li/">https://www.neurosurg.cam.ac.uk/research-groups/brain-tumour-imaging-lab/2988-2/dr-chao-li/</a>
+                            </span>
+                        </li>
+                        <li class="about-li">
+                            <img class="com-img" src="../css/2017_style/img/committee/Nazar.jpg">
+                            <span class="com-span">
+                                Dr Chao Li, MD, PhD<br>
+                                Group Leader, Intelligent Neuroimaging & Computational Neuroscience<br>
+                                Clinical Fellow, Department of Clinical Neurosciences<br>
+                                Senior Research Fellow, Department of Applied Mathematics and Theoretical Physics<br>
+                            </span>
+                        </li>
+                        <li class="about-li">
+                            <img class="com-img" src="../css/2017_style/img/committee/Qin.jpg">
+                            <span class="com-span">
+                                Dr Chao Li, MD, PhD<br>
+                                Group Leader, Intelligent Neuroimaging & Computational Neuroscience<br>
+                                Clinical Fellow, Department of Clinical Neurosciences<br>
+                                Senior Research Fellow, Department of Applied Mathematics and Theoretical Physics<br>
+                            </span>
+                        </li>
+                        <li class="about-li">
+                            <img class="com-img" src="../css/2017_style/img/committee/Wu.jpg">
+                            <span class="com-span">
+                                Dr Chao Li, MD, PhD<br>
+                                Group Leader, Intelligent Neuroimaging & Computational Neuroscience<br>
+                                Clinical Fellow, Department of Clinical Neurosciences<br>
+                                Senior Research Fellow, Department of Applied Mathematics and Theoretical Physics<br>
+                            </span>
+                        </li>
+                        <li class="about-li">
+                            <img class="com-img" src="../css/2017_style/img/committee/Yang.jpg">
+                            <span class="com-span">
+                                Dr Chao Li, MD, PhD<br>
+                                Group Leader, Intelligent Neuroimaging & Computational Neuroscience<br>
+                                Clinical Fellow, Department of Clinical Neurosciences<br>
+                                Senior Research Fellow, Department of Applied Mathematics and Theoretical Physics<br>
+                            </span>
+                        </li>
+                        <li class="about-li">
+                            <img class="com-img" src="../css/2017_style/img/committee/Zhang.jpg">
+                            <span class="com-span">
+                                Dr Chao Li, MD, PhD<br>
+                                Group Leader, Intelligent Neuroimaging & Computational Neuroscience<br>
+                                Clinical Fellow, Department of Clinical Neurosciences<br>
+                                Senior Research Fellow, Department of Applied Mathematics and Theoretical Physics<br>
+                            </span>
+                        </li>
+
                     </ul>
                 </div>
             </div>
