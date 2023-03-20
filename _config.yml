@@ -3,7 +3,7 @@ description: > # this means to ignore newlines until "baseurl:"
   The 2nd Workshop on Computational Mathematics Modeling in Cancer Analysis
   A MICCAI 2023 Workshop, October 8th, 2023, CANADA
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://cmmca.github.io/cmmca2023.github.io/" # the base hostname & protocol for your site
+url: "https://cmmca.github.io/cmmca2023.github.io/blob/" # the base hostname & protocol for your site
 # Build settings
 markdown: kramdown
 
