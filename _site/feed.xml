@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CMMCA 2023</title>
+    <description>The 2nd Workshop on Computational Mathematics Modeling in Cancer Analysis A MICCAI 2023 Workshop, October 8th, 2023, CANADA
+</description>
+    <link>http://0.0.0.0:9999//</link>
+    <atom:link href="http://0.0.0.0:9999//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 16 Mar 2023 22:33:15 +0800</pubDate>
+    <lastBuildDate>Thu, 16 Mar 2023 22:33:15 +0800</lastBuildDate>
+    <generator>Jekyll v4.3.2</generator>
+    
+  </channel>
+</rss>

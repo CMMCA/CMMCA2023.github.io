@@ -1,0 +1,945 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>CMMCA 2023</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="The 2nd Workshop on Computational Mathematics Modeling in Cancer Analysis A MICCAI 2023 Workshop, October 8th, 2023, CANADA
+">
+    <link rel="canonical" href="http://0.0.0.0:9999//">
+
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>CMMCA 2023 | The 2nd Workshop on Computational Mathematics Modeling in Cancer Analysis A MICCAI 2023 Workshop, October 8th, 2023, CANADA</title>
+<meta name="generator" content="Jekyll v4.3.2" />
+<meta property="og:title" content="CMMCA 2023" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="The 2nd Workshop on Computational Mathematics Modeling in Cancer Analysis A MICCAI 2023 Workshop, October 8th, 2023, CANADA" />
+<meta property="og:description" content="The 2nd Workshop on Computational Mathematics Modeling in Cancer Analysis A MICCAI 2023 Workshop, October 8th, 2023, CANADA" />
+<link rel="canonical" href="http://0.0.0.0:9999/" />
+<meta property="og:url" content="http://0.0.0.0:9999/" />
+<meta property="og:site_name" content="CMMCA 2023" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="CMMCA 2023" />
+<meta name="google-site-verification" content="googleXXXXXXXXXXXXXXXX.html" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","description":"The 2nd Workshop on Computational Mathematics Modeling in Cancer Analysis A MICCAI 2023 Workshop, October 8th, 2023, CANADA","headline":"CMMCA 2023","name":"CMMCA 2023","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://0.0.0.0:9999/css/2016_style/img/icon-large.png"}},"url":"http://0.0.0.0:9999/"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link rel="stylesheet" href="/../css/2016_style/style.css">
+
+    <!--Google Analytics SCRIPT-->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-xxxxxxxx-x', 'auto');
+        ga('send', 'pageview');
+    </script>
+    <!--Google Analytics SCRIPT END-->
+
+    <!--Remove image dragging -->
+    <BODY ondragstart="return false;" ondrop="return false;">
+
+    <!-- Custom Fonts -->
+    <link rel="stylesheet" href="/../css/2016_style/font-awesome/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- WEBSITE ICON IN BROWSER -->
+    <link rel="icon" type="image/png" href="/css/2016_style/img/icon.png">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+
+
+    <body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-default-color navbar-fixed-top">
+        <div class="this_container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="/"><img src="../css/2017_style/img/miccai2023-logo.png" style="margin-top:-22px;" width="150px" alt="icon-about"></a>
+            </div>
+
+            <style>
+                .this_container {
+                    margin-right:40px;
+                    margin-left:20px;
+                }
+            </style>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="/"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#intro">Introduction</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#date">Important Date</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#program">Program</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#speakers">Speakers</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">Committee</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#sponsors">sponsors</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+<!--
+        
+          
+        
+          <a class="page-link" href="//about">About the Conference</a>
+        
+          <a class="page-link" href="//2016/about">About the Conference</a>
+        
+          <a class="page-link" href="//agenda">Agenda</a>
+        
+          <a class="page-link" href="//2016/agenda">Agenda</a>
+        
+          <a class="page-link" href="//booklet">Event Booklet</a>
+        
+          <a class="page-link" href="//2016/faqs">Frequently Asked Questions (FAQ)</a>
+        
+          <a class="page-link" href="//faqs">Frequently Asked Questions (FAQ)</a>
+        
+          
+        
+          <a class="page-link" href="//2016/index">YOUR TITLE 2016</a>
+        
+          
+        
+          <a class="page-link" href="//register">Register</a>
+        
+          
+        
+          
+        
+          <a class="page-link" href="//2016/team">Team Member</a>
+        
+          <a class="page-link" href="//team">Team Member</a>
+        
+          <a class="page-link" href="//2016/venue">Venue</a>
+        
+          <a class="page-link" href="//venue">Venue</a>
+        
+          
+        
+ -->
+
+
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-heading">CMMCA2023<br></div>
+                <div class="intro-lead-in">The 2nd Workshop on Computational Mathematics Modeling in Cancer Analysis</div>
+                <div class="intro-lead-in">A MICCAI 2023 Workshop, October 8th, 2023, CANADA</div>
+                <!-- <a href="#intro" class="page-scroll btn btn-xl">Tell Me More</a> -->
+            </div>
+        </div>
+    </header>
+
+    <!-- 添加新的模块一定要include -->
+    <!-- Services Section -->
+    <section id="intro">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">INTRODUCTION</h2>
+                </div>
+            </div>
+            <div class="row container">
+                </p>
+                <style>
+                .paragraph {
+                    margin-bottom: 20px;
+                }
+                #introh1-div {
+                    padding-top: 10px;
+                }
+                #introh1 {
+                    font-size:  50px;
+                    line-height: 40px;
+                }
+                .introp {
+                    font-size:22px;
+                    line-height: 28px;
+                    color: #000000;
+                    text-align: justify;
+                    text-justify: inter-ideograph;
+                }
+                .themeli {
+                    font-size: 20px;
+                    line-height: 28px;
+                }
+                .center {
+                    margin-top: 30px;
+                    margin-bottom: 30px;
+                }
+                </style>
+
+                <div class="paragraph">
+                    <p class="introp"">
+                        The 1st Workshop on Computational Mathematics Modeling in Cancer Analysis (CMMCA2022) will be held in the frame of the 25th International Conference on Medical Image Computing and Computer Assisted Intervention, MICCAI 2022! The workshop will take place on September 18th, 2022. The main scope of this workshop is to help advance the scientific researches within the broad field of computational mathematics in cancer analysis. This workshop will focus on major trends and challenges in theoretical, computational and applied aspects of mathematical in cancer data analysis and will present works aimed to identifying new cutting-edge techniques and their uses cancer data analysis. We hope that the workshop will provide a unique opportunity for in-depth technical discussions and exchange of ideas in all areas involving mathematical and computational sciences, modeling and simulations, thereby bringing novel insights into cancer research and clinic.
+                    </p>
+                    <p class="introp">
+                        To bring together mathematicians, biomedical engineers, computer scientists, and physicians, we hold this workshop for you to discuss novel mathematical methods for multimodal cancer data analysis, which can be applied in clinical such as cancer subtype classification and prognostic prediction. Promoting researchers to propose new methods of cancer data analysis with strong interpretability which combine clinical data and algorithms based on rigorous mathematical theory. This allows a deeper exploration of cancer from the perspective of computational science, such as the mapping of biological and computational correlations among multiple omics data at various scales. The multimodal cancer data include but are not limited to radiographic, pathology, genomics, proteomics, etc. CMMCA 2022 will feature a single-track workshop with keynote speaker(s), technical paper presentations and poster sessions.
+                    </p>
+                </div>
+
+                <div class="paragraph">
+                    <div id="introh1-div">
+                        <h1 id="introph1">theme</h1>
+                    </div>
+                    <p class="introp"">
+                        Topics of this workshop include (but are not limited to) computational mathematics modeling (e.g., Deep learning, Differential equation, Multi-scale modeling, Cellular automaton, Spatial graph network, Nonlinear dynamical systems, and Probability methods) with applications to:
+                    </p>
+                    <ul class="themeul">
+                        <li class="themeli">Interpretability-based learning mathematics theory for cancer imaging analysis;</li>
+                        <li class="themeli">Medical image analysis of anatomical structures/functions and tumors;</li>
+                        <li class="themeli">Computer-aided tumor detection/diagnosis;</li>
+                        <li class="themeli">Multi-modality fusion for cancer analysis, diagnosis, and surgery/treatment plans;</li>
+                        <li class="themeli">Molecular/pathologic/cellular image analysis in the microenvironment, immunity, invasion, treatment, and resistance;</li>
+                        <li class="themeli">Computational modeling characterizes tumor growth, metabolism, evolution;</li>
+                        <li class="themeli">Topological tumor graphs for prognosis analysis;</li>
+                        <li class="themeli">Biologically-based mathematical modeling in tumor vasculature and angiogenesis.</li>
+                        <li class="themeli"s>Spatiotemporal modeling for heterogeneity and evolution of the tumor microenvironment</li>
+                    </ul>
+                </div>
+                <div>
+                    <div id="introh1-div">
+                        <h1 id="intorph1">REVIEW</h1>
+                    </div>
+                    <p class="introp">
+                        Click this link to visit the website of the first Workshop on Computational Mathematics Modeling in Cancer Analysis (CMMCA2022):
+                        <br>
+                        <ul>
+                            <li class="themeli"><a href="https://cmmca2022.casconf.cn/">https://cmmca2022.casconf.cn/</a></li>
+                        </ul>
+                    </p>
+                </div>
+                 
+            </div>
+        </div>
+    </section>
+    <!-- Services Section -->
+    <section id="date">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">IMPORTANT DATES</h2>
+                </div>
+            </div>
+
+            <div class="row container">
+                </p>
+                <style>
+                .paragraph {
+                    margin-bottom: 20px;
+                }
+                .date-div {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .date-div2 {
+                    display: inline-block;
+                    margin-top: 30px;
+                    margin-left: auto;
+                    margin-right:auto;
+                }
+
+                #dateh1 {
+                    font-size:  30px;
+                    line-height: 40px;
+                }
+                .datep {
+                    font-size:22px;
+                    line-height: 28px;
+                    color: #000000;
+                    text-align: justify;
+                    text-justify: inter-ideograph;
+                }
+                .dateli {
+                    font-size: 26px;
+                    line-height: 40px;
+                }
+                .time {
+                    margin-left:auto;
+                    width: 200px;
+                    display: inline-block;
+                }
+                .timestrong {
+                    margin-left:auto;
+                    display: inline-block;
+                    /* text-align: right; */
+                }
+                .img-date {
+                    background: cornflowerblue;
+                }
+                </style>
+
+
+                <div class="date-div">
+                    <div class="date-div1">
+                        <img width=150px height=150px class="img-date img-circle" src="../css/2017_style/img/icon-agenda.jpeg" alt="">
+                    </div>
+                    <div class="date-div2">
+                        <ul class="themeul">
+                            <li class="dateli"><span class="time">April 1st</span><strong class="timestrong">Opening of Submission system</strong></li>
+                            <li class="dateli"><span class="time">June 25th</span><strong class="timestrong">Paper Submission due</strong></li>
+                            <li class="dateli"><span class="time">July 20th</span><strong class="timestrong">Notification of acceptance</strong></li>
+                            <li class="dateli"><span class="time">July 30th</span><strong class="timestrong">Camera Ready papers due</strong></li>
+                            <li class="dateli"><span class="time">September 6th</span><strong class="timestrong">Workshop Proceeding due</strong></li>
+                            <li class="dateli"><span class="time">October 8th</span><strong class="timestrong">Workshop dates</strong></li>
+                        </ul>
+                    </div>
+                    
+                </div>
+
+                 
+            </div>
+        </div>
+    </section>
+    <!-- Services Section -->
+    <section id="program">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">IMPORTANT DATES</h2>
+                </div>
+            </div>
+
+            <div class="row container">
+                </p>
+                <style>
+                .paragraph {
+                    margin-bottom: 20px;
+                }
+                .date-div {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .date-div2 {
+                    display: inline-block;
+                    margin-top: 30px;
+                    margin-left: auto;
+                    margin-right:auto;
+                }
+
+                #dateh1 {
+                    font-size:  30px;
+                    line-height: 40px;
+                }
+                .datep {
+                    font-size:22px;
+                    line-height: 28px;
+                    color: #000000;
+                    text-align: justify;
+                    text-justify: inter-ideograph;
+                }
+                .dateli {
+                    font-size: 26px;
+                    line-height: 40px;
+                }
+                .time {
+                    margin-left:auto;
+                    width: 200px;
+                    display: inline-block;
+                }
+                .timestrong {
+                    margin-left:auto;
+                    display: inline-block;
+                    /* text-align: right; */
+                }
+                .img-date {
+                    background: cornflowerblue;
+                }
+                </style>
+
+
+                <div class="date-div">
+                    <div class="date-div1">
+                        <img width=150px height=150px class="img-date img-circle" src="../css/2017_style/img/icon-agenda.jpeg" alt="">
+                    </div>
+                    <div class="date-div2">
+                        <ul class="themeul">
+                            <li class="dateli"><span class="time">April 1st</span><strong class="timestrong">Opening of Submission system</strong></li>
+                            <li class="dateli"><span class="time">June 25th</span><strong class="timestrong">Paper Submission due</strong></li>
+                            <li class="dateli"><span class="time">July 20th</span><strong class="timestrong">Notification of acceptance</strong></li>
+                            <li class="dateli"><span class="time">July 30th</span><strong class="timestrong">Camera Ready papers due</strong></li>
+                            <li class="dateli"><span class="time">September 6th</span><strong class="timestrong">Workshop Proceeding due</strong></li>
+                            <li class="dateli"><span class="time">October 8th</span><strong class="timestrong">Workshop dates</strong></li>
+                        </ul>
+                    </div>
+                    
+                </div>
+
+                 
+            </div>
+        </div>
+    </section>
+    <!-- Portfolio Grid Section -->
+    <section id="speakers" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Speakers</h2>
+                    <h3 class="section-subheading text-muted"></h3>
+                </div>
+            </div>
+            <div class="row">
+            
+                <div class="col-md-4 col-sm-6 speakers-item">
+                    <a href="#Name-1" class="speakers-link" data-toggle="modal">
+                        <div class="speakers-hover">
+                            <div class="speakers-hover-content">s
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img width=400px length=400px src="../css/2017_style/img/speaker/Chao Li.jpg" class="img-responsive img-centered" alt="">
+                    </a>
+                    <div class="speakers-caption">
+                        <h4>Chao Li</h4>
+                        <p class="text-muted">Position</p>
+                    </div>
+                </div>
+            
+                <div class="col-md-4 col-sm-6 speakers-item">
+                    <a href="#Nazar" class="speakers-link" data-toggle="modal">
+                        <div class="speakers-hover">
+                            <div class="speakers-hover-content">s
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img width=400px length=400px src="../css/2017_style/img/speaker/Nazar.jpg" class="img-responsive img-centered" alt="">
+                    </a>
+                    <div class="speakers-caption">
+                        <h4>Nazar</h4>
+                        <p class="text-muted">Position</p>
+                    </div>
+                </div>
+            
+                <div class="col-md-4 col-sm-6 speakers-item">
+                    <a href="#Wu" class="speakers-link" data-toggle="modal">
+                        <div class="speakers-hover">
+                            <div class="speakers-hover-content">s
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img width=400px length=400px src="../css/2017_style/img/speaker/Wu_01.png" class="img-responsive img-centered" alt="">
+                    </a>
+                    <div class="speakers-caption">
+                        <h4>Wu</h4>
+                        <p class="text-muted">Position</p>
+                    </div>
+                </div>
+            
+                <div class="col-md-4 col-sm-6 speakers-item">
+                    <a href="#Yang" class="speakers-link" data-toggle="modal">
+                        <div class="speakers-hover">
+                            <div class="speakers-hover-content">s
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img width=400px length=400px src="../css/2017_style/img/speaker/Yang_01.png" class="img-responsive img-centered" alt="">
+                    </a>
+                    <div class="speakers-caption">
+                        <h4>Yang</h4>
+                        <p class="text-muted">Position</p>
+                    </div>
+                </div>
+            
+                <div class="col-md-4 col-sm-6 speakers-item">
+                    <a href="#Zhang" class="speakers-link" data-toggle="modal">
+                        <div class="speakers-hover">
+                            <div class="speakers-hover-content">s
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img width=400px length=400px src="../css/2017_style/img/speaker/Zhang.jpg" class="img-responsive img-centered" alt="">
+                    </a>
+                    <div class="speakers-caption">
+                        <h4>Zhang</h4>
+                        <p class="text-muted">Position</p>
+                    </div>
+                </div>
+            
+                <div class="col-md-4 col-sm-6 speakers-item">
+                    <a href="#Qin" class="speakers-link" data-toggle="modal">
+                        <div class="speakers-hover">
+                            <div class="speakers-hover-content">s
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img width=400px length=400px src="../css/2017_style/img/speaker/Qin.jpg" class="img-responsive img-centered" alt="">
+                    </a>
+                    <div class="speakers-caption">
+                        <h4>Qin</h4>
+                        <p class="text-muted">Position</p>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+    </section>
+    <!-- About Section -->
+<section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Committee</h2>
+                    <h3 class="section-subheading text-muted"></h3>
+                </div>
+            </div>
+            <div class="row">
+                <style>
+                    .about_box {
+                        margin-bottom: 40px;
+                        padding-bottom: 30px;
+                    }
+                    .committee_member {
+                        padding-left: 10%;
+                        font-size: 30px;
+                        line-height: 40px;
+                        margin-bottom: 5%;
+                    }
+                    .committee_name {
+                        font-size: 25px;
+                        line-height: 30px;
+                        font-weight: bold;
+                    }
+                </style>
+                <div class="about_box">
+
+                        <style>
+                            .about-li {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                padding: 10px 0 10px 0;
+                                margin-top: 20px;
+                                margin-bottom: 20px;
+
+                            }
+                            .com-img {
+                                width: 220px;
+                                height: 220px;
+                            }
+                            .com-span {
+                                width: 750px;
+                                margin-left: 20px;
+                                font-size: 15px;
+                                line-height: 20px;
+                                font-weight: bold;
+                            }
+                        </style>
+                        <ul>
+                            <li class="about-li">
+                                <a href="https://people.ucas.edu.cn/~wenjianqin?language=en" target="_blank">
+                                    <img class="com-img" src="../css/2017_style/img/committee/Qin.jpg">
+                                </a>
+                                <span class="com-span">
+                                    <h class="committee_name">Dr. Wenjian Qin,</h><br>
+                                    Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences,China<br>
+                                </span>
+                            </li>
+
+                            <li class="about-li">
+                                <a href="https://faculty.uaeu.ac.ae/nzaki/" target="_blank">
+                                    <img class="com-img" src="../css/2017_style/img/committee/Nazar.jpg">
+                                </a>
+                                <span class="com-span">
+                                    <h class="committee_name">Dr. Nazar Zaki,</h><br>
+                                    United Arab Emirate University, United Arab Emirate<br>
+                                </span>
+                            </li>
+                            <li class="about-li">
+                                <a href="http://www.ict.cas.cn/sourcedb_2018_ict_cas/cn/jssrck/200909/t20090917_2496774.html" target="_blank">
+                                    <img class="com-img" src="../css/2017_style/img/committee/Zhang.jpg">
+                                </a>
+                                <span class="com-span">
+                                    <h class="committee_name">Dr. Fa Zhang,</h><br>
+                                    Institute of Computing Technology, Chinese Academy of Sciences, China<br>
+                                </span>
+                            </li>
+                            <li class="about-li">
+                                <a href="https://faculty.mdanderson.org/profiles/jia_wu.html" target="_blank">  
+                                    <img class="com-img" src="../css/2017_style/img/committee/Wu.jpg">
+                                </a>  
+                                <span class="com-span">
+                                    <h class="committee_name">Dr. Jia Wu,</h><br>
+                                    University of Texas MD Anderson Cancer Center, USA<br>
+                                </span>
+                            </li>
+                            <li class="about-li">
+                                <a href="https://teacher.ucas.ac.cn/~fanyangsiat?language=en" target="_blank">
+                                    <img class="com-img" src="../css/2017_style/img/committee/Yang.jpg">
+                                </a>
+                                <span class="com-span">
+                                    <h class="committee_name">Dr. Fan Yang,</h><br>
+                                    Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences, China<br>
+                                </span>
+                            </li>
+
+                            <li class="about-li">
+                                <a href="https://www.neurosurg.cam.ac.uk/research-groups/brain-tumour-imaging-lab/2988-2/dr-chao-li/" target="_blank">
+                                    <img class="com-img" src="../css/2017_style/img/committee/Chao Li.jpg">
+                                </a>
+                                <span class="com-span">
+                                    <h class="committee_name">Dr. Chao Li,</h><br>
+                                    University of Cambridge, England<br>
+                                    </span>
+                            </li>
+                        </ul>
+
+                </div>    
+            </div>
+            <div class="row">
+                <div class = "paragraph">
+                    <h1 id="introph1">Steering Committee:</h1>
+                </div>
+                <p class ="committee_member">
+                    Prof. Dinggang Shen (ShanghaiTech University, China)<br>
+                    Prof. Lei Xing (Stanford University, United States)<br>
+                    Prof. Tianming Liu (University of Georgia, United States)<br>
+                    Prof. Dong Ni (Shenzhen University, China)<br>
+                    Prof. Jing Cai (Hong Kong Polytechnic University, China)<br>
+                    Prof. Hairong Zheng (Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences, China)<br>
+                    Prof. Shuo Li(Case Western Reserve University, United States)<br>
+                </p>
+            </div>
+            <div class="row">
+                <div class = "paragraph">
+                    <h1 id="introph1">Program Committee:</h1>
+                </div>
+                <p class ="committee_member">
+                    Yaoqing Xie (Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences, China)<br>
+                    Wei Zhao (Beihang University, China)<br>
+                    Xiu Nie (female, Union Hospital, Tongji Medical College, Huazhong University of Science and Technology, China)<br>
+                    Erlei Zhang (Northwest A&F University, China)<br>
+                    Xiaoying Tang (Female, Southern University of Science and Technology, China)<br>
+                    Xing Lu ( Zhuhai Sanmed Biotech Inc, China)<br>
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- Clients Aside -->
+    
+    <aside id="sponsors" class="clients" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Sponsors</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <a href="https://www.siat.ac.cn" class="portfolio-link" data-toggle="modal">
+                        <img src="../css/2016_style/img/logos/siatlogo_institute_with_bg.png" class="img-responsive img-centered" alt="">
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <a href="https://www.siat.ac.cn" class="portfolio-link" data-toggle="modal">
+                        <img src="../css/2017_style/img/logos/siatlogo_school_with_bg.png" class="img-responsive img-centered" alt="">
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <a href="#" class="portfolio-link" data-toggle="modal">
+                        <img src="../css/2017_style/img/logos/siatlogo_school_with_bg.png" class="img-responsive img-centered" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </aside>
+    <section id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Contact Us</h2>
+                <h3 class="section-subheading text-success">We will do our best to answer your request as soon as possible.<br>You may send us your request via <a class="text-blue" href="mailto:cmmca@siat.ac.cn">cmmca@siat.ac.cn</a></h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <form name="sentMessage" id="contactForm" action="https://formspree.io/hello.world@gmail.com" method="POST" novalidate>
+                    <!-- <div class="row">
+                        <div class="col-md-6">
+                            <div class="control-group form-group">
+                                <input type="text" class="form-control" name="name" placeholder="Your Name *" id="name" required data-validation-required-message="Please enter your name."WW>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="control-group form-group">
+                                <input type="email" class="form-control" name="_replyto" placeholder="Your Email *" id="email" required data-validation-required-message="Please enter your email address.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="control-group form-group">
+                                <input type="tel" class="form-control" name="phone" placeholder="Your Phone" id="phone" required data-validation-required-message="Please enter your phone number (optional).">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="control-group form-group">
+                                <textarea class="form-control" name="message" placeholder="Your Message *" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="col-lg-12 text-center">
+                            <div id="success"></div>
+                            <button type="submit" value="Send" class="btn btn-xl">Send Message</button>
+                        </div>
+                    </div> -->
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+    <style>
+body {
+  position: absolute;
+  margin: 0;
+  min-height: 100%;
+  width: 100%;
+}
+
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.foot-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+</style>
+
+<footer>
+    <div class="container">
+        <div class="footer-div">
+            <!-- <div>
+                <span class="copyright">© 2023 <a href="https://github.com/melvinchng/event-jekyll-theme">Event Jekyll Theme</a> by <a href="http://melvinchng.github.io">Melvin Ch'ng</a>,<br>All Rights Reserved.</span>
+            </div> -->
+            <div>
+                Thanks for <a href="http://melvinchng.github.io">Melvin Ch'ng</a>.<br>
+                The template can be downloaded at <a href="https://github.com/melvinchng/event-jekyll-theme">Event Jekyll Theme</a><br>
+            </div>
+        </div>
+    </div>
+</footer>
+     <!-- Portfolio Modals -->
+ 
+    <div class="portfolio-modal modal fade" id="Name-1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Chao Li</h2>
+                            <hr class="star-primary">
+                            <img src="../css/2017_style/img/speaker/Chao Li.jpg" class="img-responsive img-centered" alt="Picture of TBD">
+                            <h3>Topic: Topic</h3>
+                            <p>More Info</p>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="Nazar" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Nazar</h2>
+                            <hr class="star-primary">
+                            <img src="../css/2017_style/img/speaker/Nazar.jpg" class="img-responsive img-centered" alt="Picture of TBD">
+                            <h3>Topic: Topic</h3>
+                            <p>More Info</p>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="Wu" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Wu</h2>
+                            <hr class="star-primary">
+                            <img src="../css/2017_style/img/speaker/Wu_01.png" class="img-responsive img-centered" alt="Picture of TBD">
+                            <h3>Topic: Topic</h3>
+                            <p>More Info</p>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="Yang" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Yang</h2>
+                            <hr class="star-primary">
+                            <img src="../css/2017_style/img/speaker/Yang_01.png" class="img-responsive img-centered" alt="Picture of TBD">
+                            <h3>Topic: Topic</h3>
+                            <p>More Info</p>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="Zhang" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Zhang</h2>
+                            <hr class="star-primary">
+                            <img src="../css/2017_style/img/speaker/Zhang.jpg" class="img-responsive img-centered" alt="Picture of TBD">
+                            <h3>Topic: Topic</h3>
+                            <p>More Info</p>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="Qin" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Qin</h2>
+                            <hr class="star-primary">
+                            <img src="../css/2017_style/img/speaker/Qin.jpg" class="img-responsive img-centered" alt="Picture of TBD">
+                            <h3>Topic: Topic</h3>
+                            <p>More Info</p>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- jQuery Version 1.11.0 -->
+<script src="/../css/2016_style/js/jquery-1.11.0.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/../css/2016_style/js/bootstrap.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="/../css/2016_style/js/jquery.easing.min.js"></script>
+<script src="/../css/2016_style/js/classie.js"></script>
+<script src="/../css/2016_style/js/cbpAnimatedHeader.js"></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/../css/2016_style/js/agency.js"></script>
+
+    </body>
+</html>
