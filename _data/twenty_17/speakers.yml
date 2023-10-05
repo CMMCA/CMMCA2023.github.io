@@ -3,7 +3,7 @@
   subtitle: Case Western Reserve University
   img: Shuo_Li_02.jpg
   thumbnail: Shuo_Li_02.jpg
-  alt: Picture of Shuo Li
+  alt: Picture of Shuo_Li_02
   topic: Al to eliminate chemical contrast agent in cancer diagnosis and treatment
   description: More Info
 
@@ -12,7 +12,7 @@
   subtitle: Sorbonne University
   img: Daniel_02.jpg
   thumbnail: Daniel_02.jpg
-  alt: Picture of Daniel RACOCEANU
+  alt: Picture of Daniel_02
   topic: Tumor heterogeneity, tumor micro-environment analysis, modeling and simulation and sparse 3D data reconstruction in computational histopathology
   description: More Info
 
@@ -21,7 +21,7 @@
   subtitle: MD Anderson Cancer Center
   img: Wu.jpg
   thumbnail: Wu.jpg
-  alt: Picture of Jia Wu
+  alt: Picture of Wu
   topic: Multi-modal Integration and Modeling to Advance Precision Oncology
   description: More Info
   
@@ -30,6 +30,6 @@
   subtitle: Sanmed Biotech Ltd
   img: Lv.jpg
   thumbnail: Lv.jpg
-  alt: Picture of Xing Lu
+  alt: Picture of Lv
   topic: Multi-Modality Al for Cancer Early Diagnosis and Beyond:Exploring Industrial Applications
   description: More Info
