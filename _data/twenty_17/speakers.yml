@@ -1,5 +1,5 @@
 - title: Shuo Li
-  name: Name
+  name: Name-1
   subtitle: Case Western Reserve University
   img: Shuo_Li_02.jpg
   thumbnail: Shuo_Li_02.jpg
@@ -8,7 +8,7 @@
   description: More Info
 
 - title: Daniel RACOCEANU
-  name: Name
+  name: Name-2
   subtitle: Sorbonne University
   img: Daniel_02.jpg
   thumbnail: Daniel_02.jpg
@@ -17,7 +17,7 @@
   description: More Info
 
 - title: Jia Wu
-  name: Name
+  name: Name-3
   subtitle: MD Anderson Cancer Center
   img: Wu.jpg
   thumbnail: Wu.jpg
@@ -26,7 +26,7 @@
   description: More Info
   
 - title: Xing Lu
-  name: Name-2
+  name: Name-4
   subtitle: Sanmed Biotech Ltd
   img: Lv.jpg
   thumbnail: Lv.jpg
