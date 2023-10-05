@@ -31,5 +31,5 @@
   img: Lv.jpg
   thumbnail: Lv.jpg
   alt: Picture of TBD
-  topic: Topic
-  description: More Info
+  topic: Multi-Modality Al for Cancer Early Diagnosis and Beyond:Exploring Industrial Applications
+  description: Cancer is a complex disease process, and early diagnosis holds immense significance and value. To understand the progression of cancer, it is essential to achieve precise early diagnosis through a combination of macroscopic to microscopic biomarkers. Our team of Sanmed Biotech AIRC extensively utilizes information from macroscopic medical imaging, microscopic cellular molecular levels, and even DNA levels to facilitate the discovery and diagnosis of early-stage lung cancer and pulmonary nodules. In this presentation, I will emphasize the perspective of business implementation, elucidating the value and strategies of AI in cancer diagnosis and analysis through multiscale, multimodal information fusion. We will also discuss future development trends.
