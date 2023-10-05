@@ -1,35 +1,35 @@
-- title: Name-1
-  name: Name-1
-  subtitle: Position
+- title: Shuo Li
+  name: Shuo Li
+  subtitle: Case Western Reserve University
   img: TBD.jpg
   thumbnail: TBD.jpg
   alt: Picture of TBD
-  topic: Topic
+  topic: Al to eliminate chemical contrast agent in cancer diagnosis and treatment
   description: More Info
 
-- title: Name-2
-  name: Name-2
-  subtitle: Position
+- title: Daniel RACOCEANU
+  name: Daniel RACOCEANU
+  subtitle: Sorbonne University
   img: TBD.jpg
   thumbnail: TBD.jpg
   alt: Picture of TBD
-  topic: Topic
+  topic: Tumor heterogeneity, tumor micro-environment analysis, modeling and simulation and sparse 3D data reconstruction in computational histopathology
   description: More Info
 
-- title: Name-2
-  name: Name-2
-  subtitle: Position
+- title: Jia Wu
+  name: Jia Wu
+  subtitle: MD Anderson Cancer Center
   img: TBD.jpg
   thumbnail: TBD.jpg
   alt: Picture of TBD
-  topic: Topic
+  topic: Multi-modal Integration and Modeling to Advance Precision Oncology
   description: More Info
   
-- title: Name-2
-  name: Name-2
-  subtitle: Position
+- title: Xing Lu
+  name: Xing Lu
+  subtitle: Sanmed Biotech Ltd
   img: TBD.jpg
   thumbnail: TBD.jpg
   alt: Picture of TBD
-  topic: Topic
+  topic: Multi-Modality Al for Cancer Early Diagnosis and Beyond:Exploring Industrial Applications
   description: More Info
